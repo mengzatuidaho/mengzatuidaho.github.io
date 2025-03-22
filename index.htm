@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8"/>
+        <title>Meng Zhao @ UIdaho</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        
+        <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
+        <!-- Font Awesome Icons -->
+        <link rel="stylesheet" href="css/font-awesome.min.css"/>
+        
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet"/>
+        <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
+        
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+         <script src="js/html5shiv.js"></script>
+         <script src="js/respond.min.js"></script>
+         <![endif]-->
+        
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <!-- http://getbootstrap.com/customize/ change "@screen-sm" -> "@screen-md" in @grid-float-breakpoint -->
+        <script src="js/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/menucollapse.js"></script>
+        <script type="text/javascript" src="js/arrow78.js"></script>
+        <script type="text/javascript" src="js/custom.js"></script>
+    </head>
+    
+    <body id="page-top" class="index">
+        
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"  data-target="#bs-example-navbar-collapse-2" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="glyphicon glyphicon-search"></span>
+                    </button>
+                    <button id="button2" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                        <span><a href="#"><img border="0" width="170" src="images/2560px-University_of_Idaho_logo.svg.png"/></a></span>
+                    </div>
+                    
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                                
+                            
+                            <li  class="page-scroll"  >
+                                <a onclick="javascript:reset_menus();$('#tab-home-content').show();" href="#home">Home</a>
+                            </li> 
+                        
+                            <li class="page-scroll">
+                                <a onclick="javascript:reset_menus();$('#tab-news-content').show();" href="#news">News</a>
+                            </li>
+                            
+                            <li class="page-scroll">
+                                <a onclick="javascript:reset_menus();$('#tab-people-content').show();" href="#people">People</a>
+                            </li>
+                            
+                            <li class="page-scroll">
+                                <a onclick="javascript:reset_menus();$('#tab-research-content').show();" href="#research">Research</a>
+                            </li>
+
+                            <li class="page-scroll">
+                                <a onclick="javascript:reset_menus();$('#tab-publication-content').show();" href="#publications">Publications</a>
+                            </li>
+                            
+                            <li class="page-scroll">
+                                <a onclick="javascript:reset_menus();$('#tab-teaching-content').show();" href="#teaching">Teaching</a>
+                            </li>
+                        
+                            <li class="page-scroll">
+                                <a onclick="javascript:reset_menus();$('#tab-join-content').show();" href="#openings">Join</a>
+                            </li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                    
+                    <!-- search box submenu -->
+                    <div class="collapse" id="bs-example-navbar-collapse-2">
+                        <gcse:search></gcse:search>
+                            </div>
+                    
+                </div><!-- /.container-fluid -->
+            </nav>
+            
+            <section>
+                <!-- Place this tag where you want the search results to render -->
+                <gcse:searchresults-only></gcse:searchresults-only>
+                    </section>
+            
+            <!-- Home Section -->
+            <section  name="home" id="home" style="margin-top:40px" class="col-md-12">
+                <div class="container">
+                    <div align="left" class="col-md-12">
+                        <a target="_blank" href="images/welcome.jpg">
+                            <img class='contain' id="mobile-img" src="images/welcome.jpg" width="100%" border="0" height="100%" style="object-fit:contain" alt="" ></a>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Home Section -->
+            <section name="intro" id="intro">
+                <div class="container lead">
+                    <div style="text-align: left; margin-top:10px" class="col-md-12">
+                        <!--<h2>Welcome!</h2>--> 
+                            </br>
+                            
+                            <p class="lead">
+                            <b>Weclome</b> to the ecohydrology group led by <a href='index.htm#people'>Dr. Meng Zhao</a>! We study the intersection between hydrology and ecology, and their broader implications on climate, society, and policy making. We employ a variety of approaches including satellite remote sensing, GIS, Earth system modeling, and machine learning. We aim to use what we discover to address challenges in the water-energy-food nexus. Click below to know more on our research topics.</i>
+                            
+                            <p>
+                            <a href="index.htm#drought" class="btn btn-primary btn-lg" style="margin-top:4px">Characterizing Drought&raquo;</a>
+                            
+                            <a href="index.htm#ET" class="btn btn-primary btn-lg" style="margin-top:4px">Evapotranspiration&raquo;</a>
+                            <a href="index.htm#restoration" class="btn btn-primary btn-lg", style="margin-top:4px">Land Use Change Impact on Water Resources&raquo;</a>
+                        
+                    </div>
+                </div>
+            </section>
+            
+
+           <!-- Openings Section -->
+            <section name="openings" id="openings">
+                <div class="container lead">
+                <div style="text-align: left; margin-top:10px" class="col-md-12">
+                            <hr class="star-primary">
+                            <h2>Openings</h2>
+                            <ul>
+                            <p>
+                            Our group currently has <b>multiple openings for postdoctoral researchers</b>. If your idea complements our lab's research vision, please send Meng Zhao<script language="JavaScript">
+                                document.write("&nbsp;");
+                                spiderjam('mengz','uidaho.edu');
+                                </script> a one-page research proposal and include your CV by email.
+                            </p>   
+                        </ul>
+                </div>
+            </div>
+        </section>
+
+           <!-- Openings Section -->
+            <section name="news" id="news">
+                <div class="container lead">
+                <div style="text-align: left; margin-top:10px" class="col-md-12">
+                            <hr class="star-primary">
+                            <h2>News</h2>
+                            <ul>
+                            <p>
+                            <b>2024.7</b> Meng's paper is out in <b><a target="_blank" href="https://doi.org/10.1029/2024GL110094"> Geophysical Research Letters</a></b>. We find that canopy temperature is likely an important omission in interpreting microwave vegetation optical depth. 
+                            </p>
+                            <p>
+                            <b>2024.5</b> A team of Idahoan researchers led by Dr. Zhao has been awarded a NASA Established Program to Stimulate Competitive Research (EPSCoR) grant. With this grant, Dr. Zhao will collaborate with Boise State University, NASA Goddard Space Flight Center, and Pacific Northwest National Laboratory to improve streamflow prediction in global drylands. The total amount of federal funds for the project is $750,000. Matching funds through the University of Idaho will contribute additional $375,000.   
+                            </p>
+                            
+                            <p>
+                            <b>2024.5</b> Dr. Lucas Emilio Bernardelli Hoeltgebaum joins the group as a postdoctoral researcher. Dr. Hoeltgebaum has a Ph.D. in Environmental Engineering from the Federal University of Paran&#225. Dr. Hoeltgebaum has extensive experience in conducting environmental modeling and using FLUXNET data. Welcome Dr. Hoeltgebaum!  
+                            </p>    
+                            <p>
+                            <b>2024.1</b>  A team led by Dr. Zhao is awarded a USGS National Competitive (104g) Grant to improve US's resilience to water scarcity. The project will collaborate with researchers at the Ohio State University and USGS Upper Midwest Water Science Center. The total amount of federal funds for the project is $309,324. Matching funds through the University of Idaho will contribute additional $309,324.
+                            </p>
+                            <p>
+                            <b>2023.7</b>  Dr. Zhao gave an oral presentation on decomposing microwave vegetation water content at the 2023 International Geoscience and Remote Sensing Symposium held in Pasadena, CA. 
+                            </p>
+
+                            <p>
+                            <b>2023.6</b> Our lab received $50,000 grant from Idaho NASA EPSCoR to improve streamflow prediction in local Snake River basin.
+                            </p>
+<!--                            
+                            <p>
+                                2022.10 Meng's work on drought impact on evapotranspiration has been published by <i>Nature Climate Change</i>! Check out the paper <a target="_blank" href="https://rdcu.be/cYpAV">here</a> and news coverage by <a target="_blank" href="https://news.stanford.edu/2022/10/27/predicting-drought-development-using-plant-processes/">Stanford News</a>. Also listen to the story by <a target="_blank" href="https://narrations.ad-auris.com/widget/the-stanford-daily/plant-breathing-patterns-can-help-predict-droughts--impact-on-ecosystems?utm_source=The Stanford Daily&utm_medium=ad_auris_audio_widget&utm_campaign=widget_v2&utm_content=playlist_icon_desktop&">Stanford Daily</a>.
+                            </p>
+-->
+<!--
+                            <p>
+                                2022.04 Meng will join the Dept. of Earth and Spatial Sciences at the University of Idaho as an Assistant Professor starting in January 2023!
+-->                            </p>
+
+                        </ul>
+                </div>
+            </div>
+        </section>
+            
+
+         <!-- People Section -->
+        <section  name="people" id="people" style="margin-top:40px">
+                
+                <div class="container">
+                <div style="text-align: left; margin-top:10px" class="col-md-12">
+                <hr class="star-primary">
+                    <h2>People</h2>
+                    <a target="_blank" href="images/group_photo.jpg">
+                            <img id="mobile-img" src="images/group_photo.jpg" width="800" border="0" height="600" alt="" class='center'></a>
+            
+                    <h3>Principle Investigator</h3>
+                    <div align="left" class="col-md-3">
+                        <a target="_blank" href="images/DSC02006_small.jpeg">
+                            <img id="mobile-img" src="images/DSC02006_small.jpeg" width="200" border="0" height="300" alt=""></a>
+                    </div>
+                    <h3>Meng Zhao</h3>
+                    <ul>
+                    <p class="lead">
+                        Meng Zhao is an Assistant Professor of <a target="_blank" href="https://www.uidaho.edu/sci/ess/">Earth and Spatial Sciences</a> at the <a target="_blank" href="https://www.uidaho.edu/">University of Idaho</a>. Before his current appointment, Meng was a Postdoctoral Scholar in the <a target="_blank" href="https://sustainability.stanford.edu/">Doerr School of Sustainability</a> at <a target="_blank" href="https://www.stanford.edu">Stanford University</a>. He holds a Ph.D. in Earth System Science from the <a target="_blank" href="https://www.uci.edu">University of California Irvine</a>, a M.Sc. from <a target="_blank" href="https://www1.lehigh.edu/">Lehigh University</a>, and a B.Eng from <a target="_blank" href="https://en.whu.edu.cn/">Wuhan Universty</a>.
+                        </p>
+                        </ul>    
+                        <br>
+                    <p style="font-size:120%">
+                            Office: <a href="tel:12088857969">1-208-885-7969</a> <br/>
+                            Email:
+                            <script language="JavaScript">
+                                <!--
+                                document.write("&nbsp;");
+                                spiderjam('mengz','uidaho.edu');
+                                -->
+                                </script><br/>
+
+                        <p>
+                            <a href="ZhaoM_CV.pdf" class="btn-sm btn-primary">CV (PDF)&raquo;</a>
+                            <a href="https://scholar.google.com/citations?user=XlMg630AAAAJ&hl=en" class="btn-sm btn-primary">Google Scholar&raquo;</a>
+                    </p>
+                    
+                    <h3>Postdoctoral Researcher</h3>
+
+                    <div align="left" class="col-md-3">
+                        <a target="_blank" href="images/Lucas.jpg">
+                            <img id="mobile-img" src="images/Lucas.jpg" width="220" border="0" height="230" alt=""></a>
+                    </div>
+                    <h3>Dr. Lucas Emilio Bernardelli Hoeltgebaum</h3>
+                    <p class="lead">
+                    Lucas Emilio has a PhD in Environmental Engineering with his studies focused on hydrological modeling and measurements, especially analyzing evapotranspiration data using the water balance approach (from AmeriFlux data from remote sensing and terrestrial measurements). He is a nature lover and spends his free time doing outdoor sports such as mountain biking, hiking, and trying to see all the creeks and rivers along the way.
+                    </p>
+                    <br>
+                    <br>
+
+                   <h3>Graduate Student</h3>
+                    <div align="left" class="col-md-3">
+                        <a target="_blank" href="images/yanni.png">
+                            <img id="mobile-img" src="images/yanni.png" width="200" border="0" height="260" alt=""></a>
+                    </div>
+                    <h3>Yanni Zhao</h3>
+                    <h4>Ph.D. Student</h4>
+                    <p class="lead">
+                        Yanni joined the lab from Peking University where she got her master's degree in Geography. She received her bachelor's degree in Geographic Information Science from Wuhan University of Technology. Her rule of life is to sleep when tired and exercise when stressful.
+                    </p>
+
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+
+
+                    <div align="left" class="col-md-3">
+                        <a target="_blank" href="images/zifan.jpg">
+                            <img id="mobile-img" src="images/zifan.jpg" width="200" border="0" height="280" alt=""></a>
+                    </div>
+                    <h3>Zifan Xu</h3>
+                    <h4>Ph.D. Student</h4>
+                    <p class="lead">
+                        Zifan got her master's degree in Geography from Tianjin University. Prior to that, she received her bachelor's degree in Water Engineering from Hohai University. Her motto is "Find it. Do it. Stick to it. Enjoy it."
+                    </p>
+
+
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <h3>Undergraduate Student</h3>
+                    <div align="left" class="col-md-3">
+                        <a target="_blank" href="images/ryan.jpg">
+                            <img id="mobile-img" src="images/ryan.jpg" width="200" border="0" height="250" alt=""></a>
+                    </div>
+                    <h3>Ryan Town</h3>
+                    <h4>Undergraduate Research Assistant</h4>
+                    <p class="lead">
+                    Ryan is a junior working toward a B.S.in Geography through the Department of Earth and Spatial Sciences at University of Idaho. Outside of his academic pursuits in remote sensing, mapping, and data analysis he spends most of his time gathering wild foods and otherwise enjoying the outdoors and his home state of Idaho.</p>
+
+        </section>
+    
+
+         <!-- Research Section -->
+        <section  name="research" id="research" style="margin-top:40px">
+                
+                <div class="container">
+                <div style="text-align: left; margin-top:10px" class="col-md-12">
+                <hr class="star-primary">
+                    <h2>Research</h2>
+                    <h3>Vision</h3>
+                    <div class="container lead">
+                    <div style="text-align: left; margin-top:10px" class="col-md-7">
+                            <p class="lead">
+                            Water availability affects the normal functioning of terrestrial ecosystems such as photosynthesis and evapotranspiration. Terrestrial ecosystems, in turn, dominate evapotranspiration and intercept rainfall, affecting the evolution of the water cycle. This highly intertwined nature of global water and carbon cycles forms the basis for important, yet poorly understood feedback loops (right figure). These feedback loops modulate climate and human impacts on both cycles. For example, revegetation activities such as reforestation and afforestation are expected to achieve a quarter of all emission reduction pledged under the Paris Agreement. Although trees store carbon in biomass and soil, trees transpire a large amount of water and can deplete local water resources (Zhao et al. 2021). So, is revegetation a sustainable practice? What is its cost-benefit matrix? To answer questions alike, we first need to better understand the feedback loops between global water and carbon cycles. <b>Our group focuses on characterizing these feedback loops: by leveraging state-of-the-art remote sensing observations of water and carbon fluxes/storages and probing them using a variety of data analysis techniques.</b> 
+                    </div>
+
+                    <div align="left" class="col-md-5">
+                        <a target="_blank" href="images/research_vision.png">
+                            <img id="mobile-img" src="images/research_vision.png" width="100%" border="0" height="100%" style="object-fit:contain" alt=""></a>
+<p style="font-size:100%">
+    <i>Conceptual framework of potential plant-soil-atmosphere feedbacks. Arrows indicate direct impacts (positive or negative or unclear).</i> </p>
+                    </div>
+                   </div> 
+                    
+                    <div class="container lead" id="drought">
+                    <div style="text-align: left; margin-top:10px" class="col-md-12">
+                    <h3>Characterizing Drought</h3>
+                    </br>
+                    <div align="left" class="col-md-9">
+                        <a target="_blank" href="images/dsi.gif">
+                            <img id="mobile-img" src="images/dsi.gif" width="100%" border="0" height="100%" style="object-fit:contain" alt=""></a>
+                    </div>
+                    </div>
+            
+                <div class="container lead">
+                    <div style="text-align: left; margin-top:10px" class="col-md-12">
+                        <!--<h2>Welcome!</h2>-->
+                            </br>
+
+                            <p class="lead">
+                            Many woody ecosystems tend to have deep root systems. During droughts, they often access substantial volumes of water beyond the groundwater table. Therefore, to understand ecosystems’ drought response, information is needed about the moisture availability in deep soil. However, existing observations of underground water supply over large areas are limited to near surface depths (&lt;5 cm). We addressed this gap by <b> demonstrating that time-variable gravity measurements from the Gravity Recovery and Climate Experiment (GRACE) and GRACE Follow-On (GRACE-FO) are reliable proxies for total plant-available water </b> (Zhao et al., 2017a;b). The primary process driving the gravitational variations that GRACE and GRACE-FO measure is the redistribution of water. To better characterize drought, we developed a drought severity index based on GRACE and GRACE-FO (above figure) to provide information about both root zone soil moisture and groundwater changes. This new index complements other atmospheric and shallow surface drought indicators such as precipitation, temperature, and surface soil moisture. We are now using this approach to delineate the time evolution of droughts so that we can study how vegetation respond at different drought stages.</p>
+                    </div>
+                </div>
+                </div>
+                    <div class="container lead" id="ET">
+                    <div style="text-align: left; margin-top:10px" class="col-md-12">
+                    <h3>Evapotranspiration</h3>
+                    </br>
+                    <div align="left" class="col-md-9">
+                        <a target="_blank" href="images/ET.png">
+                            <img id="mobile-img" src="images/ET.png" width="100%" border="0" height="100%" style="object-fit:contain" alt=""></a>
+                    </div>
+                    </div>
+            
+                <div class="container lead">
+                    <div style="text-align: left; margin-top:10px" class="col-md-12">
+                        <!--<h2>Welcome!</h2>-->
+                            </br>
+
+                            <p class="lead">
+                            Evapotranspiration (ET) of terrestrial ecosystems is closely linked with photosynthesis and constitutes a major flux in the water cycle. Thus, it is critical to characterize ET behaviors and their connections with other eco-hydrological processes. However, current large-scale ET datasets (such as remote sensing-based) often implicitly assume a vegetation response to water stress, preventing them from providing direct observational constraint for ET behaviors. <b>To avoid this problem, we developed new estimates of ET based on GRACE/GRACE-FO TWS and a water balance approach (above figure), which are free of assumptions about plant-water relations.</b> We am currently using these data to characterize the prevalence of ET increase during drought, which is a concerning phenomenon that quickly depletes water resources, may cause flash drought, and exacerbate ecosystem stress. This phenomenon has previously been observed in specific regions, but our findings show that this phenomenon is globally widespread and systematically underestimated by Earth system models. These findings suggest models may underestimate the role of evapotranspiration in exacerbating droughts, and their potential impacts on the water-energy-food nexus.  </p>
+                    </div>
+                </div>
+                </div>
+                    <div class="container lead" id="restoration">
+                    <div style="text-align: left; margin-top:10px" class="col-md-12">
+                    <h3>Land Use Change Impact on Water Resources</h3>
+                    </br>
+                    <div align="left" class="col-md-9">
+                        <a target="_blank" href="images/restoration.png">
+                            <img id="mobile-img" src="images/restoration.png" width="80%" border="0" height="80%" style="object-fit:contain" alt=""></a>
+                    </div>
+                    </div>
+            
+                <div class="container lead">
+                    <div style="text-align: left; margin-top:10px" class="col-md-12">
+                        <!--<h2>Welcome!</h2>-->
+                            </br>
+
+                            <p class="lead">
+                            Human-induced land use change, such as afforestation and reforestation, can significantly impact the regional water cycle. Until recently, assessing this impact could only use data from a few water components, such as precipitation, runoff, and streamflow. It is much more challenging to document changes in total water resources. By combining GRACE with eco-hydrological modeling, we concluded that policy-driven revegetation projects were the primary cause of the sustained total water storage (TWS) depletion in the Mu Us Sandyland and its surrounding areas in northern China, a region of similar size to the State of Indiana (above figure). This illustrates that revegetation activities should be evaluated based on not just their value for erosion control and carbon storage, but also in the context of the water resources depletion they cause. <b>This study is the first of its kind to take into account all water resources.</b> We are currently using the approach we demonstrated in China to assess ecosystem restoration impacts on water resources in other regions and other land use change scenarios. 
+                            </p>
+                    </div>
+                </div>
+</div>
+            </section>
+
+
+            <!-- Publication Section -->
+            <section  name="publications" id="publications">
+                <div class="container lead">
+                    <div style="text-align: left; margin-top:10px" class="col-md-12">
+                            <hr class="star-primary">
+                            <h2>Publications</h2>
+                            <ul>
+                                <li><b> Zhao, M.</b>, V. Humphrey, A. F. Feldman, A. G. Konings, 2024:<b><a target="_blank" href="https://doi.org/10.1029/2024GL110094"> Temperature is likely an important omission in interpreting vegetation optical depth</a></b>, <i>Geophysical Research Letters</i>, doi: 10.1029/2024GL110094.</li></li><span class="__dimensions_badge_embed__" data-doi="10.1029/2024GL110094" data-style="small_rectangle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+                                <li>Konings, A. G., K. Rao, E. L. McCormick, A. T. Trugman, A. P. Williams, N. S. Diffenbaugh, M. Yebra, and <b>M. Zhao</b>, 2024:<b><a target="_blank" href="https://doi.org/10.1111/gcb.17425"> Tree species explain only half of explained spatial variability in plant water sensitivity</a></b>, <i>Global Change Biology</i>, doi: 10.1111/gcb.17425.</li></li><span class="__dimensions_badge_embed__" data-doi="10.1111/gcb.17425" data-style="small_rectangle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+                                <li>Zhou, Y., J. Dong, Y. Cui, <b>M. Zhao</b>, X. Wang, Q. Tang, Y. Zhang, S. Zhou, G. Metternicht, Z. Zou, G. Zhang, and X. Xiao, 2023:<b><a target="_blank" href="https://doi.org/10.1016/j.agrformet.2023.109341"> Ecological restoration exacerbates the agriculture-induced water crisis in North China Region</a></b>, <i>Agricultural and Forest Meteorology</i>, doi: 10.1016/j.agrformet.2023.109341.</li></li><span class="__dimensions_badge_embed__" data-doi="10.1016/j.agrformet.2023.109341" data-style="small_rectangle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+                                <li> <b>Zhao, M.</b>, G. A, Y. Liu, and A. G. Konings, 2022:<b><a target="_blank" href="https://doi.org/10.1038/s41558-022-01505-3"> Evapotranspiration frequently increases during droughts</a></b>, <i>Nature Climate Change</i>, doi: 10.1038/s41558-022-01505-3.</li></li><span class="__dimensions_badge_embed__" data-doi="10.1038/s41558-022-01505-3" data-style="small_rectangle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+                                <li> <b>Zhao, M.</b>, G. A, J. Zhang, I. Velicogna, C. Liang, and Z. Li, 2021:<b><a target="_blank" href="https://www.nature.com/articles/s41893-020-00600-7"> Ecological restoration impact on total terrestrial water storage</a></b>, <i>Nature Sustainability</i>, 4, 56-62, doi: 10.1038/s41893-020-00600-7.</li></li><span class="__dimensions_badge_embed__" data-doi="10.1038/s41893-020-00600-7" data-style="small_rectangle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+                                <li> Du, J., J. Kimball, J. Sheffield, I. Velicogna, <b>M. Zhao</b>, M. Pan, C. Fisher, H. Beck, J. Watts, G. A, and E. Wood, 2021:<b><a target="_blank" href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020JG006006"> Synergistic satellite assessment of global vegetation health in relation to ENSO-induced droughts and pluvials</a></b>, <i>Journal of Geophysical Research - Biogeosciences</i>, 126, e2020JG006006, doi: 10.1029/2020JG006006.</li></li><span class="__dimensions_badge_embed__" data-doi="10.1029/2020JG006006" data-style="small_rectangle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+                                <li> A, G., I. Velicogna, <b>M. Zhao</b>, A. Colliander, and J. Kimball, 2020:<b><a target="_blank" href="https://www.sciencedirect.com/science/article/pii/S0034425719306431"> Satellite detection of varying seasonal water supply restrictions on grassland productivity in the Missouri basin, USA</a></b>, <i>Remote Sensing of Environment</i>, 239, 111623, doi: 10.1016/j.rse.2019.111623.</li><span class="__dimensions_badge_embed__" data-doi="10.1016/j.rse.2019.111623" data-style="small_rectangle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+                                <li> Du, J., J. S. Kimball, I. Velicogna, <b>M. Zhao</b>, L. A. Jones, J. D. Watts, Y. Kim, and G. A, 2020:<b><a target="_blank" href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2018WR024633"> Multicomponent satellite assessment of drought severity in the Contiguous United States from 2002 to 2017 using AMSR-E and AMSR2</a></b>, <i>Water Resources Research</i>, 55, 7, 5394-5412, doi:10.1029/2018WR024633. </li><span class="__dimensions_badge_embed__" data-doi="10.1029/2018WR024633" data-style="small_rectangle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+                              
+                                <li> <b>Zhao, M.</b>, G. A,  I. Velicogna, and J. S. Kimball, 2017a:<b><a target="_blank" href="https://journals.ametsoc.org/view/journals/hydr/18/8/jhm-d-16-0182_1.xml"> A global gridded dataset of GRACE drought severity index for 2002-2014: Comparison with PDSI and SPEI and a case study of the Australia Millennium drought</a></b>, <i>Journal of Hydrometeorology</i>, 18, 56-62, 2117-2129, doi:10.1175/JHM-D-16-0182.1.</li><span class="__dimensions_badge_embed__" data-doi="10.1175/JHM-D-16-0182.1" data-style="small_rectangle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+                                <li> <b>Zhao, M.</b>, G. A,  I. Velicogna, and J. S. Kimball, 2017b:<b><a target="_blank" href="https://journals.ametsoc.org/view/journals/clim/30/16/jcli-d-16-0458.1.xml"> Satellite observations of regional drought 	severity in the continental US using GRACE-based terrestrial water storage changes</a></b>, <i>Journal of Climate</i>, 130, 6297-6308, doi:10.1175/JCLI-D-16-0458.1.</li><span class="__dimensions_badge_embed__" data-doi="10.1175/JCLI-D-16-0458.1" data-style="small_rectangle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+                                <li> Shang, H., L. Chen, H. Letu, <b>M. Zhao</b>, S. Li,  and S. Bao, 2017:<b><a target="_blank" href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2016JD025659"> Development of a daytime cloud and haze detection algorithm for Himawari-8 satellite measurements over central and eastern China</a></b>, <i>Journal of Geophysical Research - Atmosphere</i>, 122, 3528–3543, doi:10.1002/2016JD025659.</li> <span class="__dimensions_badge_embed__" data-doi="10.1002/2016JD025659" data-style="small_rectangle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+                                <li> <b>Zhao, M.</b>, J. M. Ramage,  K. Semmens, and F. Obleitner, 2014:<b><a target="_blank" href="https://iopscience.iop.org/article/10.1088/1748-9326/9/4/045009"> Recent ice cap snowmelt in Russian High Arctic and anti-correlation with late summer sea ice extent</a></b>, <i>Environmental Research Letters</i>, 9, 045009, doi:10.1088/1748-9326/9/4/045009.</li><span class="__dimensions_badge_embed__" data-doi="10.1088/1748-9326/9/4/045009" data-style="small_rectangle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+<li> <b>Zhao, M.</b>, H. Shang,  W. Chao, L. Zou, and Y. Zhang, 2011:<b><a target="_blank" href="https://www.thinkmind.org/articles/geoprocessing_2011_3_10_30026.pdf"> Water area extraction from RGB 	aerophotograph based on chromatic and textural analysis</a></b>, <i>Proceedings of the third international 	conference on advanced geographic information systems, applications, and services</i>, Gosier, 	Guadeloupe, France, pp.46-52</li>
+                                    </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+                   
+
+           <!-- Teaching Section -->
+            <section name="teaching" id="teaching">
+                <div class="container lead">
+                <div style="text-align: left; margin-top:10px" class="col-md-12">
+                            <hr class="star-primary">
+                            <h2>Teaching</h2>
+                            <ul>
+                            <p class="lead">
+                            <li>GEOG385 Fundationas of GIS</li>
+                            <li>GEOG485/585 RS&GIS Image Analysis</li>
+                            </p>
+                        </ul>
+                </div>
+            </div>
+        </section>
+        
+        <hr class="star-primary">
+        <footer>
+            <small>
+                <center>
+                    © 2024 | Meng Zhao | University of Idaho
+                </center>
+            </small>
+        </footer>
+        
+    </body>
+    
+</html>
